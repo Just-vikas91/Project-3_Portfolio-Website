@@ -17,3 +17,12 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// the Text Animation
+var typed = new Typed(".text", {
+    strings: ["Android App Dev","Web Developer"],
+    typeSpeed: 100,
+    backSpeed:100,
+    backDelay: 1000,
+    loop: true
+})
