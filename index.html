@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="mediaquerries.css" />
   </head>
   <body>
+    <!-- Upper Navigation and Logo -->
     <nav id="desktop-nav">
-      <div class="logo">Vikas Patel</div>
+      <div class="logo">The <span>Engine+er.</span></div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -22,7 +23,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Vikas Patel</div>
+      <div class="logo">The <span>Engine+er.</span></div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -39,13 +40,14 @@
     </nav>
     <!-- hero Section starts -->
     <section id="profile">
+      
       <div class="section__pic-container">
         <img src="./assets/Profile.png" alt="Vikas profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Vikas Patel</h1>
-        <h3><span class="text"></span></h3>
+        <h1 class="title"><span>Vikas</span> Patel</h1>
+        <h2><span class="text"></span></h2>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -62,17 +64,19 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://www.linkedin.com/in/vikas-patel-3961002b7'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/just-vikas91'"
           />
         </div>
       </div>
     </section>
+
+    <!-- Ao=bout me Section  -->
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -335,7 +339,7 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Just-vikas91/CODSOFT-1.git'"
+                onclick="location.href='https://github.com/Just-vikas91/CODSOFT-1/blob/main/ToDo_App.mp4'"
               >
                 Live Demo
               </button>
@@ -398,6 +402,7 @@
         onclick="location.href='./#contact'"
       />
     </section>
+
     <!-- Contact Info Section -->
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -424,7 +429,7 @@
     <!-- Contact Form Section -->
     <div class="contact-form-upper-container">
       <div class="contact-form-container">
-        <form id="contactForm">
+        <form id="contactForm" autocomplete="on">
           
           <input type="text" id="name" placeholder="Enter name" name="name" required>
           <input type="email" id="email" placeholder="Enter Email adress" name="email" required>
@@ -466,6 +471,8 @@
         })();
     </script>
 
+<!-- typed script animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="scrool.js"></script>
     <script src="script.js"></script>
   </body>

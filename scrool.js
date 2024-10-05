@@ -14,13 +14,13 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
 }
 
-// the Text Animation
+// the text Animation
 var typed = new Typed(".text", {
-    strings: ["Android App Dev","Web Developer"],
+    strings: ["Android Developer","App Developer", ""],
     typeSpeed: 100,
     backSpeed:100,
     backDelay: 1000,
